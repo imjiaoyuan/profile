@@ -1,0 +1,48 @@
+{
+  "config": {
+    "site_title": "I'm JiaoYuan",
+    "favicon": "img/favicon.ico",
+    "name": "JiaoYuan",
+    "avatar": "img/avatar.jpg",
+    "description": "Environmental Science and Engineering | Bioinformatics",
+    "social": {
+      "github": "https://github.com/imjiaoyuan",
+      "wechat": "img/mss.png",
+      "google_scholar": "https://scholar.google.com/citations?user=VHD-XpkAAAAJ&hl=zh-CN&oi=sra"
+    },
+    "navigation": [
+      {
+        "title": "About",
+        "url": "#about"
+      },
+      {
+        "title": "Research",
+        "url": "#research"
+      },
+      {
+        "title": "Publications",
+        "url": "#publications"
+      },
+      {
+        "title": "Experience",
+        "url": "#experience"
+      },
+      {
+        "title": "Education",
+        "url": "#education"
+      },
+      {
+        "title": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "contents": {
+    "about": "<h1>About Me</h1>\n<ul>\n<li>Male / 22 years old</li>\n<li>From Gansu Province, China</li>\n<li>Currently based in Chengdu, Sichuan</li>\n<li>AI Code Artist specializing in Python, Shell, and JavaScript</li>\n<li>Linux enthusiast with a particular fondness for Arch Linux</li>\n<li>Bioinformatics researcher who found his passion at the intersection of code and biology</li>\n</ul>",
+    "research": "<h1>Research Interests</h1>\n<ul>\n<li>Bioinformatics</li>\n<li>Computational Biology</li>\n<li>Data Visualization</li>\n<li>Artificial Intelligence</li>\n</ul>",
+    "publications": "<h1>Publications</h1>\n<ul>\n<li>Shi Y, Jiang N, Jiang W, Chen J, Wu L, <strong>Jiao Y</strong>, Zhou Y, Wu L, Huang Y, Li D, Kumar V, Hu B, Huang J. OsHARBI1-1 enhances cadmium tolerance in yeast through YAP1 mediated modulation of cell wall integrity genes and catalase genes. FASEB J. 2025 Feb 15;39(3):e70346. doi: 10.1096/fj.202400111R.<ul>\n<li>Responsible for domain analysis and phylogenetic analysis of rice HARBI1 protein family</li>\n</ul>\n</li>\n<li>贾雁茹，靳雨璠，<strong>焦元</strong>，等 . 植物青素 Phytocyanin 蛋白家族研究进展综述 [J]. 植物科学学报，2024\n+- Jia Y, Jin Y, <strong>Jiao Y</strong>, et al. Review on Plant Phytocyanin Protein Family Research Progress. Journal of Plant Sciences, 2024.<ul>\n<li>Conducted phylogenetic analysis of PC protein family</li>\n</ul>\n</li>\n<li>江珊，吴龙英，赵宝生，黄佳惠，蒋宇喆，<strong>焦元</strong>，黄进 . 植物耐受高温胁迫的分子机制研究进展 [J]. 中国农学通报，2024, 40(9): 132-138.\n+- Jiang S, Wu L, Zhao B, Huang J, Jiang Y, <strong>Jiao Y</strong>, Huang J. Research Progress on Molecular Mechanisms of Plant Heat Stress Tolerance. Chinese Agricultural Science Bulletin, 2024, 40(9): 132-138.<ul>\n<li>Contributed to content writing and figure creation</li>\n</ul>\n</li>\n<li>Wu L, Wang R, Li M, Du Z, Jin Y, Shi Y, Jiang W, Chen J, <strong>Jiao Y</strong>, Hu B, Huang J. Functional analysis of a rice 12-oxo-phytodienoic acid reductase gene (OsOPR1) involved in Cd stress tolerance. Mol Biol Rep. 2024 Jan 25;51(1):198.<ul>\n<li>Conducted phylogenetic analysis and expression heatmap creation for rice OPR gene family</li>\n</ul>\n</li>\n<li>Tong J, Wu L, Li B, Jiang N, Huang J, Wu D, Zhou L, Yang Q, <strong>Jiao Y</strong>, Chen J, Zhao K, Pei X. Image-based vegetation analysis of desertified area by using a combination of ImageJ and Photoshop software. Environ Monit Assess. 2024 Feb 26;196(3):306.<ul>\n<li>Created maps for the Zoige region</li>\n</ul>\n</li>\n</ul>",
+    "experience": "<h1>Experience</h1>\n<ul>\n<li>2025.01-2025.06 <strong>Bioinformatics Intern - Translational Medicine Center, Sichuan Kelun Biotech</strong><ul>\n<li>Developed AI application platform using Vue + Flask for models like Alphafold3</li>\n<li>Built medical database with SQLite and visualization tools with Pyplot</li>\n<li>Deployed models (DeepSeek, Alphafold3, Protenix) on company's bastion host</li>\n</ul>\n</li>\n<li>2024.12-2025.01 <strong>Remote Bioinformatics Intern - Dairy Cattle Breeding Team, Shandong Academy of Agricultural Sciences</strong><ul>\n<li>Conducted ONT third-generation full-length transcriptome and whole-genome methylation analysis</li>\n<li>Performed SNP identification and allele analysis</li>\n</ul>\n</li>\n<li>2022.12-2023.09 <strong>Project Leader - Heavy Metal Stress Response Gene Analysis in Ryegrass</strong><ul>\n<li>Participated in 9th National College Student Life Science Competition</li>\n<li>Conducted RNA-seq data analysis, WGCNA analysis, and heavy metal stress response gene family identification</li>\n</ul>\n</li>\n<li>2022.12-2023.09 <strong>Team Member - Impact of OsSGL2 Gene Overexpression on Plant Heat Stress Resistance</strong><ul>\n<li>Won Second Prize in 8th National College Student Life Science Competition</li>\n<li>Responsible for gene family analysis and bioinformatics report writing</li>\n<li>Co-authored 1 review paper</li>\n</ul>\n</li>\n<li>2022.12-2023.12 <strong>Research Assistant - Huang Jin Lab, Chengdu University of Technology</strong><ul>\n<li>Assisted with plant stress resistance research through RNA-seq and gene family analysis</li>\n<li>Co-authored 4 papers focusing on phylogenetic analysis and figure creation</li>\n<li>Built and maintained research group website</li>\n</ul>\n</li>\n</ul>",
+    "education": "<h1>Education</h1>\n<ul>\n<li>Chengdu University of Technology</li>\n<li>B.E. in Environmental Science and Engineering</li>\n<li>2021-2025</li>\n</ul>",
+    "contact": "<h1>Contact Me</h1>\n<ul>\n<li>Email: imjiaoyuan@gmail.com</li>\n<li>Address: 218 Lingang University City Road, Section 3, Lingang Economic and Technological Development Zone, Yibin, Sichuan Province</li>\n</ul>"
+  }
+}

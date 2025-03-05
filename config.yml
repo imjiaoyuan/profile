@@ -1,0 +1,27 @@
+# 个人信息配置
+site_title: "I'm JiaoYuan"
+favicon: "img/favicon.ico"
+name: "JiaoYuan"
+avatar: "img/avatar.jpg"
+description: "Environmental Science and Engineering | Bioinformatics"
+
+# 社交媒体链接
+social:
+  github: "https://github.com/imjiaoyuan"
+  wechat: "img/mss.png"
+  google_scholar: "https://scholar.google.com/citations?user=VHD-XpkAAAAJ&hl=zh-CN&oi=sra"
+
+# 导航菜单配置
+navigation:
+  - title: "About"
+    url: "#about"
+  - title: "Research"
+    url: "#research"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Experience"
+    url: "#experience"
+  - title: "Education"
+    url: "#education"
+  - title: "Contact"
+    url: "#contact"
