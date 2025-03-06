@@ -3,7 +3,7 @@ site_title: "I'm JiaoYuan"
 favicon: "img/favicon.ico"
 name: "JiaoYuan"
 avatar: "img/avatar.jpg"
-description: "Environmental Science and Engineering | Bioinformatics"
+description: "AI & Bioinformatics"
 
 # 社交媒体链接
 social:
@@ -21,7 +21,7 @@ navigation:
     url: "#publications"
   - title: "Experience"
     url: "#experience"
-  - title: "Education"
-    url: "#education"
+  - title: "Projects"
+    url: "#projects"
   - title: "Contact"
     url: "#contact"
