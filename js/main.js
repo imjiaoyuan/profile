@@ -72,8 +72,18 @@ async function initPage() {
     // 处理导航点击
     document.querySelector('.navigation').addEventListener('click', function(e) {
         if (e.target.tagName === 'A') {
+            const url = e.target.getAttribute('href');
+            
+            // 如果是外部链接（不以#开头），则在新标签页中打开
+            if (!url.startsWith('#')) {
+                e.preventDefault();
+                window.open(url, '_blank');
+                return;
+            }
+            
+            // 内部链接的处理
             e.preventDefault();
-            const section = e.target.getAttribute('href').replace('#', '');
+            const section = url.replace('#', '');
             if (contents && contents[section]) {
                 // 移除所有激活状态
                 document.querySelectorAll('.navigation a').forEach(a => a.classList.remove('active'));

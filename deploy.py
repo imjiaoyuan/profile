@@ -49,11 +49,12 @@ def main():
     content_dir.mkdir(exist_ok=True)
     
     # 从配置文件中获取导航项
-    sections = [item['url'].replace('#', '') for item in config.get('navigation', [])]
-    
-    for section in sections:
-        md_file = content_dir / f'{section}.md'
-        contents[section] = load_markdown(str(md_file))
+    for nav_item in config.get('navigation', []):
+        section = nav_item['url'].replace('#', '')
+        # 只处理内部链接（以#开头的链接）
+        if nav_item['url'].startswith('#'):
+            md_file = content_dir / f'{section}.md'
+            contents[section] = load_markdown(str(md_file))
     
     # 组合数据
     data = {
